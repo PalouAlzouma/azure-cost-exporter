@@ -42,6 +42,29 @@ sans secrets, sans clés d'API et sans service principal.
 
 ---
 
+## Dashboard Grafana
+
+Le dashboard est publié sur Grafana.com et peut être importé de deux façons.
+
+**Par identifiant :**
+
+1. Ouvrir Grafana
+2. Aller dans **Dashboards** puis **Import**
+3. Saisir l'identifiant `25286` et cliquer **Load**
+4. Sélectionner votre source de données Prometheus
+5. Cliquer **Import**
+
+**Par nom :**
+
+1. Aller sur https://grafana.com/grafana/dashboards
+2. Rechercher `Azure Cost Exporter`
+3. Cliquer sur le dashboard puis **Copy ID to Clipboard**
+4. L'importer dans Grafana comme décrit ci-dessus
+
+Ou télécharger le fichier JSON directement : [dashboard-costs.json](dashboard-costs.json)
+
+---
+
 ## Métriques exposées
 
 | Métrique                                  | Labels                                             | Description                              |

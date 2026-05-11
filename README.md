@@ -107,6 +107,27 @@ az provider show \
 
 ---
 
+## Grafana Dashboard
+
+The dashboard is published on Grafana.com and can be imported in two ways.
+
+**By ID :**
+
+1. Open Grafana
+2. Go to **Dashboards** → **Import**
+3. Enter ID `25286` and click **Load**
+4. Select your Prometheus datasource
+5. Click **Import**
+
+**By name :**
+
+1. Go to https://grafana.com/grafana/dashboards
+2. Search for `Azure Cost Exporter`
+3. Click the dashboard and then **Copy ID to Clipboard**
+4. Import it in Grafana as described above
+
+Or download the JSON file directly : [dashboard-costs.json](dashboard-costs.json)
+
 ## Quick Start
 
 ### 1. Clone the repository
